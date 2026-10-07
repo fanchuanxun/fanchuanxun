@@ -14,7 +14,7 @@
 
 #### 🔨 项目
 
-**[向晚问思](https://github.com/lierbai618-pixel/xiangwan-wensi)** — 经典思想思辨 RAG 微信小程序
+**[向晚问思](https://github.com/fanchuanxun/xiangwan-wensi)** — 经典思想思辨 RAG 微信小程序
 
 > 已正式上线并通过 ICP 备案。在云函数受限环境（Node 16、无原生依赖）下自研轻量中文检索链路
 > （N-gram 分词 + 概念桥 + 分层加权打分），零外部依赖冷启动；设计「危机优先 + 5 类意图 + 15 领域」
@@ -23,14 +23,14 @@
 >
 > `6 云函数`　`8 集合`　`语料 36 部 / 37 片段`　`20 轮上下文`
 
-**[CrewAI 多智能体学习助手](https://github.com/lierbai618-pixel/crewai-study-assistant)** — 多格式文档自动转知识库
+**[CrewAI 多智能体学习助手](https://github.com/fanchuanxun/crewai-study-assistant)** — 多格式文档自动转知识库
 
 > 基于 CrewAI 拆分 6 个角色 Agent（解析 / 问答 / 学习规划 / 知识总结 / 出题 / 写作），
 > 以 Process.sequential 编排「解析 → 抽取 → 生成问答对 → 检索作答」端到端链路。
 >
 > 实测：单份资料平均 **9.4s**（6.6 ~ 14.2s），来源支撑率 **93.3%**（14/15，二次 LLM 判定）
 
-**[技术笔记](https://github.com/lierbai618-pixel/cattle-horse-grassland)** — 技术笔记与文章
+**[技术笔记](https://github.com/fanchuanxun/tech-notes)** — 技术笔记与文章
 
 ---
 
@@ -44,5 +44,5 @@
 
 #### 📫 联系
 
-- 邮箱：19836198923@163.com
+- 邮箱：fanchuanxun@163.com
 - 求职意向：AI 应用开发 / 大模型应用开发（2027 届）
