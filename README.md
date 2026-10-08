@@ -8,7 +8,7 @@
 
 #### 🧰 技术栈
 
-`Python`　`RAG`　`LangChain`　`CrewAI`　`Prompt Engineering`　`Function Calling`　`Node.js`　`微信云开发（CloudBase）`　`向量检索`　`内容安全`　`Git`
+`Python`　`RAG`　`LangChain`　`CrewAI`　`Prompt Engineering`　`Function Calling`　`TypeScript`　`Next.js`　`React`　`Vercel AI SDK`　`Node.js`　`微信云开发（CloudBase）`　`向量检索`　`内容安全`　`Git`
 
 ---
 
@@ -22,6 +22,16 @@
 > 与 msgSecCheck 内容安全双闸。
 >
 > `6 云函数`　`8 集合`　`语料 36 部 / 37 片段`　`20 轮上下文`
+
+**[AIClassRoom](https://github.com/fanchuanxun/aiclassroom)** — AI 多智能体互动课堂
+
+> 输入一个教学主题，多智能体协作生成「1 位 AI 老师 + 4 位 AI 同学」的沉浸式互动课程。
+> 三个 Agent 走统一的显式节点流水线（Retrieve → Plan → Draft → Validate → Critique → Finalize），
+> Validate 用 Zod + 领域不变量双重校验，不通过自动进入重试 / 修复；三条 SSE 端点流式推流，
+> 首个场景就绪即可进课堂、剩余场景后台续推。pnpm monorepo，LLM 调用收敛到唯一入口。
+> 浏览器实测中发现并修复了「Provider 启用状态被顺序写入覆盖」的状态机缺陷（含 9 个回归用例）。
+>
+> `117 单测`　`11 家模型服务`　`3 个 SSE 端点`　`Next.js 16 / React 19 / TypeScript strict`
 
 **[CrewAI 多智能体学习助手](https://github.com/fanchuanxun/crewai-study-assistant)** — 多格式文档自动转知识库
 
