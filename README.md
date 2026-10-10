@@ -33,6 +33,16 @@
 >
 > `117 单测`　`11 家模型服务`　`3 个 SSE 端点`　`Next.js 16 / React 19 / TypeScript strict`
 
+**[企业内部知识问答与制度助手](https://github.com/fanchuanxun/enterprise-knowledge-assistant)** — 证据检索型制度问答原型
+
+> 不引入向量库与外部模型，用 2-gram 切词 + 同义词归一 + 标题权重 + 主题一致性校验手写检索链路；
+> 只在已收录资料中检索证据并标注来源，无依据时明确拒答、**不调用模型**。
+> 单文件前端（双击即用、零构建）+ 可选零依赖 Node 服务端（scrypt 口令哈希 + HMAC token、
+> 越权在序列化前过滤、追加式审计日志 + 哈希链可检出篡改）。
+> 演示作品，非生产级系统 —— 与生产环境的差距清单见 `docs/企业级差距评估.md`。
+>
+> `118 条离线评测`　`9 套测试 / 315 断言`　`7 份工程文档`　`零运行时依赖`
+
 **[CrewAI 多智能体学习助手](https://github.com/fanchuanxun/crewai-study-assistant)** — 多格式文档自动转知识库
 
 > 基于 CrewAI 拆分 6 个角色 Agent（解析 / 问答 / 学习规划 / 知识总结 / 出题 / 写作），
